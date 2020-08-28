@@ -1,3 +1,4 @@
+@foo
 Feature: Shopping
 
   Scenario: Give correct change

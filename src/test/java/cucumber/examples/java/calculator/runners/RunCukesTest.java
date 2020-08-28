@@ -10,7 +10,9 @@ import org.junit.runner.RunWith;
         features = "src\\test\\resources\\cucumber\\examples\\java\\calculator",
         plugin = {
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:lol",
-                "json:target/cucumber-report.json"}
+                "json:target/cucumber-report.json"
+        },
+        tags = "@foo"
                 )
 public class RunCukesTest {
     
