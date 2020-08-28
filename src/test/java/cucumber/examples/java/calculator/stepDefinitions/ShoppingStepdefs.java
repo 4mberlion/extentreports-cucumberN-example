@@ -1,4 +1,4 @@
-package cucumber.examples.java.calculator;
+package cucumber.examples.java.calculator.stepDefinitions;
 
 import cucumber.api.Transformer;
 import cucumber.api.java.en.Given;
